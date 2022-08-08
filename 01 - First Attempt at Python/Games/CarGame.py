@@ -9,7 +9,6 @@ while True:
         else:
             print("Car has been started")
             car_started = True
-        
     elif command == "stop":
         if car_started:
             print("The car has been stopped")
